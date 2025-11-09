@@ -7,7 +7,7 @@ Features
 - User registration and login
 - Create, edit, and delete blog posts
 - Upload images to posts
-- Responsive design
+
 
 Technologies
 
