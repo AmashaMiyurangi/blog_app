@@ -2,6 +2,7 @@ Blog Application
 
 A simple blog application with user authentication, post management, and image uploads.
 
+
 Features
 
 - User registration and login
@@ -18,17 +19,13 @@ Technologies
 - **Hosting**: InfinityFree
 
 
-Environment Variables
-
-Create `.env` file (don't upload to GitHub):
-
-
 Usage
 
 1. Register a new account
 2. Login with credentials
 3. Create posts with optional images
 4. Edit or delete your posts
+
 
 Contact
 
