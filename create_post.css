@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('home_bg.png') no-repeat center center fixed; 
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  
+}
+
+.header {
+  background-color: #01559a9f;
+  color: white;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.home-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  background: #005fa3;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.home-link:hover {
+  background: #003f73;
+}
+
+.container {
+  max-width: 850px;
+  background: rgba(255, 255, 255, 0.855);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  color: #03579d;
+  margin-bottom: 20px;
+}
+
+.post-form label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #333;
+}
+
+.post-form input[type="text"],
+.post-form textarea,
+.post-form input[type="file"] {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.post-form input[type="text"]:focus,
+.post-form textarea:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.4);
+}
+
+.btn {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  /*width: 100%;*/
+  justify-content: center;
+  font-size: 16px;
+  transition: 0.3s;
+  }  
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+.footer {
+  background-color: #01559a9f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  /*position: fixed;*/
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
