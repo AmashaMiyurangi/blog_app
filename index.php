@@ -1,11 +1,7 @@
 <?php
 session_start();
 
-/*// If already logged in, go to home page automatically
-if (isset($_SESSION['user_id'])) {
-    header('Location: home.php');
-    exit;
-}*/
+
 ?>
 
 <!DOCTYPE html>
@@ -70,4 +66,5 @@ if (isset($_SESSION['user_id'])) {
 
 </body>
 </html>
+
 
